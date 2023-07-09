@@ -9,7 +9,7 @@ public class Main : MonoBehaviour
     private bool gameStarted = false;
     private float gameStartTime;
     private float gameEndTime;
-
+public int level;
 
     public ButtonSpawner buttonSpawner;
     private Queue<int> levelDataQueue;
@@ -21,7 +21,7 @@ public class Main : MonoBehaviour
     }
     void Start()
     {
-        levelDataQueue = new Queue<int>(Levels.GetLevelData());
+        levelDataQueue = new Queue<int>(Levels.GetLevelData(level));
     }
 
     private string[] zhanji = new string[5] { "战绩上传中.", "战绩上传中..", "战绩上传中...", "战绩上传中....", "战绩上传中....." };
@@ -70,23 +70,28 @@ public class Main : MonoBehaviour
     }
 
     private bool isFirstTime = true;
+    private int buttonCount = 1;
 
-    private void RespondToButtonClick()
+private void RespondToButtonClick()
+{
+    gameStarted = true;
+    buttonCount--;
+    // 如果是第一次调用这个方法
+    if (isFirstTime)
     {
-        gameStarted = true;
-        // 如果是第一次调用这个方法
-        if (isFirstTime)
-        {
+        Invoke("NextButton", UnityEngine.Random.Range(0.5f, 1f));
+        Invoke("NextButton", UnityEngine.Random.Range(0.5f, 1f));
 
-            timeText.SetActive(true);
-            // 记录游戏开始的时间
-            gameStartTime = Time.time;
+        timeText.SetActive(true);
+        // 记录游戏开始的时间
+        gameStartTime = Time.time;
 
-            // 不再是第一次调用
-            isFirstTime = false;
-        }
-        NextButton();
+        // 不再是第一次调用
+        isFirstTime = false;
     }
+    NextButton();
+}
+
 
 
 
@@ -94,6 +99,7 @@ public class Main : MonoBehaviour
     {
         if (levelDataQueue.Count > 0)
         {
+            buttonCount++;
             // 提取一个元素并删除
             int nextData = levelDataQueue.Dequeue();
 
@@ -102,8 +108,10 @@ public class Main : MonoBehaviour
         }
         else
         {
-            // 队列为空，调用结束的方法
-            GameEnd();
+            if (buttonCount <= 0)
+            {
+                GameEnd();
+            }
         }
         // // 从ButtonSpawner组件中获取CreateNextButton方法
         // System.Reflection.MethodInfo createNextButton = ButtonSpawner.GetType().GetMethod("CreateNextButton");
@@ -139,7 +147,7 @@ public class Main : MonoBehaviour
 
     public HttpHandler httpHandler;
     public string userName = "doge101";
-    public int level;
+    
     public GameObject uploadScore;
 
 

@@ -13,30 +13,35 @@ public class StartGame : MonoBehaviour
 
     public void LoadSPracticeGame()
     {
+        SoundManager.instance.PlayMenuButton();
         // 加载练习场景
         SceneManager.LoadScene(practiceScene);
     }
 
     public void LoadSCasualRankGame()
     {
+        SoundManager.instance.PlayMenuButton();
         // 加载休闲排位场景
         SceneManager.LoadScene(casualRankScene);
     }
 
     public void LoadSExpertCompetitiveGame()
     {
+        SoundManager.instance.PlayMenuButton();
         // 加载专家竞技场景
         SceneManager.LoadScene(expertCompetitiveScene);
     }
 
     public void LoadSLeaderboard()
     {
+        SoundManager.instance.PlayMenuButton();
         // 加载排行榜场景
         SceneManager.LoadScene(leaderboardScene);
     }
 
     public void QuitGame()
     {
+        SoundManager.instance.PlayMenuButton();
         // 退出游戏
         Application.Quit();
     }

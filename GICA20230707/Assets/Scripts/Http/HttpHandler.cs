@@ -33,21 +33,21 @@ public class HttpHandler : MonoBehaviour
     
 
     // 示例调用
-    public void SendScore_Relax(float time, string name, RequestCompletedDelegate onCompleted)
-    {
-        string url = "http://127.0.0.1:3000/updatescores/";
-        string jsonBody = $"{{\"completion_time\":\"{time}\", \"username\":\"{name}\"}}";
+public void SendScore_Relax(float time, string name, RequestCompletedDelegate onCompleted)
+{
+    string url = "http://45.77.46.232:3000/updatescores/";
+    string jsonBody = $"{{\"completion_time\":\"{time}\", \"username\":\"{name}\"}}";
 
-        StartCoroutine(PostJsonRequest(url, jsonBody, onCompleted));
-    }
+    StartCoroutine(PostJsonRequest(url, jsonBody, onCompleted));
+}
 
+public void GetScore_Relax(RequestCompletedDelegate onCompleted)
+{
+    string url = "http://45.77.46.232:3000/getscores/";
+    string jsonBody = $"";
 
-    public void GetScore_Relax(RequestCompletedDelegate onCompleted)
-    {
-        string url = "http://127.0.0.1:3000/getscores/";
-        string jsonBody = $"";
+    StartCoroutine(PostJsonRequest(url, jsonBody, onCompleted));
+}
 
-        StartCoroutine(PostJsonRequest(url, jsonBody, onCompleted));
-    }
 
 }

@@ -39,6 +39,7 @@ public class Rank : MonoBehaviour
     //回到主菜单
     public void LoadStartScene()
     {
+        SoundManager.instance.PlayMenuButton();
         UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
     }
 

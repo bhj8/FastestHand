@@ -575,13 +575,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeText: {fileID: 100617880}
+  level: 0
   buttonSpawner: {fileID: 0}
   uploadScoreText: {fileID: 0}
   GameEndTips: {fileID: 588570784}
   GameEndTime: {fileID: 1389117058}
   httpHandler: {fileID: 0}
   userName: test
-  level: 0
   uploadScore: {fileID: 1780697932}
 --- !u!114 &661405491
 MonoBehaviour:
@@ -597,8 +597,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonPrefabs:
   - {fileID: 5433931141997741492, guid: 1d105f475eb256743b5c6bc272b19678, type: 3}
-  - {fileID: 5433931141997741492, guid: 1d105f475eb256743b5c6bc272b19678, type: 3}
-  - {fileID: 5433931141997741492, guid: 1d105f475eb256743b5c6bc272b19678, type: 3}
+  - {fileID: 5433931141997741492, guid: 478b03dde404b3b4897c76fdd1019c80, type: 3}
+  - {fileID: 5433931141997741492, guid: af21416f0e34dff4b8c58ccb9570d88d, type: 3}
   - {fileID: 5433931141997741492, guid: 1d105f475eb256743b5c6bc272b19678, type: 3}
   canvasTransform: {fileID: 778656309}
 --- !u!114 &661405492

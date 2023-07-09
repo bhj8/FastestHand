@@ -39,7 +39,7 @@ public class ButtonSpawner : MonoBehaviour
     Vector2 position = new Vector2(Random.Range(0f, 1f), Random.Range(0f, 1f));
 
     // 随机大小
-    Vector2 size = new Vector2(Random.Range(50f, 200f), Random.Range(50f, 200f));
+    Vector2 size = new Vector2(Random.Range(100f, 200f), Random.Range(100f, 200f));
 
     // 创建按钮
     GameObject button = SpawnButton(position, size,buttonPrefab);
