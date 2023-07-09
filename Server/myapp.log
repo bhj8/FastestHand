@@ -1,0 +1,130 @@
+2023-07-09 02:03:29,887 - myapp - DEBUG - This is a debug message
+2023-07-09 02:03:30,120 - myapp - ERROR - 错误：又尼玛的狗日的没设置环境变量是不是？？？？   'OPENAI_API_KEYS'
+2023-07-09 02:03:52,471 - myapp - DEBUG - This is a debug message
+2023-07-09 02:03:52,653 - myapp - ERROR - 错误：又尼玛的狗日的没设置环境变量是不是？？？？   'SECRET_KEY'
+2023-07-09 02:04:11,984 - myapp - DEBUG - This is a debug message
+2023-07-09 02:05:03,111 - myapp - DEBUG - This is a debug message
+2023-07-09 02:06:06,141 - myapp - DEBUG - This is a debug message
+2023-07-09 02:06:31,930 - myapp - DEBUG - This is a debug message
+2023-07-09 02:06:43,264 - myapp - DEBUG - This is a debug message
+2023-07-09 02:07:15,731 - myapp - DEBUG - This is a debug message
+2023-07-09 02:07:58,111 - myapp - DEBUG - This is a debug message
+2023-07-09 02:08:07,878 - myapp - DEBUG - This is a debug message
+2023-07-09 02:08:08,055 - myapp - DEBUG - Starting server...
+2023-07-09 02:08:08,055 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 02:08:08,055 - myapp - DEBUG - Port: 443
+2023-07-09 02:08:08,055 - myapp - DEBUG - Log level: info
+2023-07-09 02:17:01,471 - myapp - DEBUG - This is a debug message
+2023-07-09 02:17:26,661 - myapp - DEBUG - This is a debug message
+2023-07-09 02:17:26,888 - myapp - DEBUG - Starting server...
+2023-07-09 02:17:26,888 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 02:17:26,888 - myapp - DEBUG - Port: 443
+2023-07-09 02:17:26,888 - myapp - DEBUG - Log level: info
+2023-07-09 02:17:53,867 - myapp - ERROR - [TencentCloudSDKException] code:InvalidParameter message:参数 `PhoneNumberSet.0` 取值类型错误。参数类型应为 `string` requestId:a6f5f139-074f-404f-b789-dd29e144ddc8
+2023-07-09 02:17:55,033 - myapp - ERROR - [TencentCloudSDKException] code:InvalidParameter message:参数 `PhoneNumberSet.0` 取值类型错误。参数类型应为 `string` requestId:1e3ef655-b9b8-45f8-98f1-673c938a46c3
+2023-07-09 02:19:17,296 - myapp - DEBUG - This is a debug message
+2023-07-09 02:19:17,537 - myapp - DEBUG - Starting server...
+2023-07-09 02:19:17,537 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 02:19:17,537 - myapp - DEBUG - Port: 443
+2023-07-09 02:19:17,537 - myapp - DEBUG - Log level: info
+2023-07-09 02:19:20,277 - myapp - DEBUG - {"SendStatusSet": [{"SerialNo": "3369:37342794416888403659300786", "PhoneNumber": "+8618267907866", "Fee": 1, "SessionContext": "", "Code": "Ok", "Message": "send success", "IsoCode": "CN"}], "RequestId": "7aa55cfa-ea0e-4c40-b976-4ad3e54671e0"}
+2023-07-09 03:59:52,898 - myapp - DEBUG - This is a debug message
+2023-07-09 03:59:53,214 - myapp - DEBUG - Starting server...
+2023-07-09 03:59:53,214 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 03:59:53,214 - myapp - DEBUG - Port: 443
+2023-07-09 03:59:53,214 - myapp - DEBUG - Log level: info
+2023-07-09 10:23:12,921 - myapp - DEBUG - This is a debug message
+2023-07-09 10:23:13,225 - myapp - DEBUG - Starting server...
+2023-07-09 10:23:13,225 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 10:23:13,225 - myapp - DEBUG - Port: 443
+2023-07-09 10:23:13,225 - myapp - DEBUG - Log level: info
+2023-07-09 11:48:22,015 - myapp - DEBUG - This is a debug message
+2023-07-09 11:48:22,342 - myapp - DEBUG - Starting server...
+2023-07-09 11:48:22,342 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 11:48:22,342 - myapp - DEBUG - Port: 443
+2023-07-09 11:48:22,342 - myapp - DEBUG - Log level: info
+2023-07-09 12:33:33,480 - myapp - DEBUG - This is a debug message
+2023-07-09 12:33:33,722 - myapp - DEBUG - Starting server...
+2023-07-09 12:33:33,722 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 12:33:33,722 - myapp - DEBUG - Port: 443
+2023-07-09 12:33:33,722 - myapp - DEBUG - Log level: info
+2023-07-09 12:34:35,931 - myapp - DEBUG - This is a debug message
+2023-07-09 12:34:36,293 - myapp - DEBUG - Starting server...
+2023-07-09 12:34:36,293 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 12:34:36,293 - myapp - DEBUG - Port: 443
+2023-07-09 12:34:36,293 - myapp - DEBUG - Log level: info
+2023-07-09 12:37:46,693 - myapp - DEBUG - This is a debug message
+2023-07-09 12:37:47,076 - myapp - DEBUG - Starting server...
+2023-07-09 12:37:47,076 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 12:37:47,076 - myapp - DEBUG - Port: 443
+2023-07-09 12:37:47,076 - myapp - DEBUG - Log level: info
+2023-07-09 12:39:46,049 - myapp - DEBUG - This is a debug message
+2023-07-09 12:39:46,419 - myapp - DEBUG - Starting server...
+2023-07-09 12:39:46,419 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 12:39:46,419 - myapp - DEBUG - Port: 443
+2023-07-09 12:39:46,419 - myapp - DEBUG - Log level: info
+2023-07-09 12:40:27,944 - myapp - DEBUG - This is a debug message
+2023-07-09 12:40:28,310 - myapp - DEBUG - Starting server...
+2023-07-09 12:40:28,310 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 12:40:28,310 - myapp - DEBUG - Port: 443
+2023-07-09 12:40:28,310 - myapp - DEBUG - Log level: info
+2023-07-09 12:40:53,936 - myapp - DEBUG - This is a debug message
+2023-07-09 12:40:54,305 - myapp - DEBUG - Starting server...
+2023-07-09 12:40:54,305 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 12:40:54,305 - myapp - DEBUG - Port: 443
+2023-07-09 12:40:54,305 - myapp - DEBUG - Log level: info
+2023-07-09 12:41:16,482 - myapp - DEBUG - This is a debug message
+2023-07-09 12:41:16,846 - myapp - DEBUG - Starting server...
+2023-07-09 12:41:16,846 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 12:41:16,846 - myapp - DEBUG - Port: 443
+2023-07-09 12:41:16,846 - myapp - DEBUG - Log level: info
+2023-07-09 12:43:22,871 - myapp - DEBUG - This is a debug message
+2023-07-09 12:43:23,242 - myapp - DEBUG - Starting server...
+2023-07-09 12:43:23,242 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 12:43:23,242 - myapp - DEBUG - Port: 443
+2023-07-09 12:43:23,242 - myapp - DEBUG - Log level: info
+2023-07-09 12:44:34,503 - myapp - DEBUG - This is a debug message
+2023-07-09 12:44:34,869 - myapp - DEBUG - Starting server...
+2023-07-09 12:44:34,869 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 12:44:34,869 - myapp - DEBUG - Port: 443
+2023-07-09 12:44:34,869 - myapp - DEBUG - Log level: info
+2023-07-09 13:04:27,243 - myapp - DEBUG - This is a debug message
+2023-07-09 13:04:27,623 - myapp - DEBUG - Starting server...
+2023-07-09 13:04:27,623 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 13:04:27,623 - myapp - DEBUG - Port: 443
+2023-07-09 13:04:27,623 - myapp - DEBUG - Log level: info
+2023-07-09 13:05:32,165 - myapp - DEBUG - This is a debug message
+2023-07-09 13:05:32,535 - myapp - DEBUG - Starting server...
+2023-07-09 13:05:32,535 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 13:05:32,535 - myapp - DEBUG - Port: 443
+2023-07-09 13:05:32,535 - myapp - DEBUG - Log level: info
+2023-07-09 13:07:10,270 - myapp - DEBUG - This is a debug message
+2023-07-09 13:07:10,638 - myapp - DEBUG - Starting server...
+2023-07-09 13:07:10,638 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 13:07:10,638 - myapp - DEBUG - Port: 443
+2023-07-09 13:07:10,638 - myapp - DEBUG - Log level: info
+2023-07-09 13:07:59,226 - myapp - DEBUG - This is a debug message
+2023-07-09 13:07:59,598 - myapp - DEBUG - Starting server...
+2023-07-09 13:07:59,598 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 13:07:59,598 - myapp - DEBUG - Port: 443
+2023-07-09 13:07:59,598 - myapp - DEBUG - Log level: info
+2023-07-09 13:08:44,526 - myapp - DEBUG - This is a debug message
+2023-07-09 13:08:44,900 - myapp - DEBUG - Starting server...
+2023-07-09 13:08:44,900 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 13:08:44,900 - myapp - DEBUG - Port: 443
+2023-07-09 13:08:44,900 - myapp - DEBUG - Log level: info
+2023-07-09 13:10:22,223 - myapp - DEBUG - This is a debug message
+2023-07-09 13:10:22,598 - myapp - DEBUG - Starting server...
+2023-07-09 13:10:22,598 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 13:10:22,598 - myapp - DEBUG - Port: 443
+2023-07-09 13:10:22,598 - myapp - DEBUG - Log level: info
+2023-07-09 13:12:51,882 - myapp - DEBUG - This is a debug message
+2023-07-09 13:12:52,243 - myapp - DEBUG - Starting server...
+2023-07-09 13:12:52,244 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 13:12:52,244 - myapp - DEBUG - Port: 443
+2023-07-09 13:12:52,244 - myapp - DEBUG - Log level: info
+2023-07-09 13:27:09,999 - myapp - DEBUG - This is a debug message
+2023-07-09 13:27:10,375 - myapp - DEBUG - Starting server...
+2023-07-09 13:27:10,377 - myapp - DEBUG - Host: 0.0.0.0
+2023-07-09 13:27:10,377 - myapp - DEBUG - Port: 443
+2023-07-09 13:27:10,377 - myapp - DEBUG - Log level: info
